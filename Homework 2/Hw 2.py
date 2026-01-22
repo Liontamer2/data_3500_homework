@@ -36,3 +36,19 @@ else:
     print(odd_or_even, "is and odd number") # Telling them it is a odd number
 
 # 2.7 Multiples 
+if 1024 % 4 == 0: # Testing if 1024 is a multiple of 4
+    print("1024 is a multiple of 4.")
+else:
+    print("1024 is not a multiple of 4")
+if 2 % 10 == 0: # Testing if 2 is a multiple of 10
+    print("2 is a multiple of 10.")
+else: 
+    print("2 is not a multiple of 10.")
+
+# 2.8 Table of Squares and Cubes 
+print("number\tsquare\tcube") # Creates my table headers 
+for i in range(6): # For loop that repeats the 6 times needed 
+    square = i ** 2
+    cube = i ** 3
+    print(f'{i}\t{square}\t{cube}') # prints the numbers using the tab escape sequence
+    
